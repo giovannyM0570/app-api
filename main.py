@@ -11,4 +11,5 @@ def test():
     return "hallo"
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5000))  # Render geeft poort door via environment variable
+    app.run(host="0.0.0.0", port=port)
