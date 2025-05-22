@@ -8,7 +8,7 @@ def home():
 
 @app.route("/test")
 def test():
-    return "hallods"
+    return "hallo"
 
 if __name__ == "__main__":
     app.run()
