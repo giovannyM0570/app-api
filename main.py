@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    url = "https://giovannymartha.nl"
+    return url
 
 @app.route("/test")
 def test():
