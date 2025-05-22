@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BikeFix API – Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+      color: #0077cc;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    .badge {
+      background: #e1ecf4;
+      color: #0366d6;
+      display: inline-block;
+      padding: 0.3rem 0.6rem;
+      margin: 0.2rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    .link-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1rem;
+      background: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .link-button:hover {
+      background: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BikeFix API</h1>
+    <p>CI/CD & Docker Project</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Over het project</h2>
+      <p>
+        BikeFix API is een eenvoudige Python Flask API opgezet met een complete DevOps workflow. De applicatie wordt getest, gebuild en als Docker-image automatisch gedeployed via GitHub Actions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Tools & Technologieën</h2>
+      <div>
+        <span class="badge">Python 3.11</span>
+        <span class="badge">Flask</span>
+        <span class="badge">Pytest</span>
+        <span class="badge">Docker</span>
+        <span class="badge">Docker Compose</span>
+        <span class="badge">GitHub Actions</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>CI/CD Workflow</h2>
+      <ol>
+        <li>Code push naar <code>main</code></li>
+        <li>GitHub Actions start automatisch</li>
+        <li>Tests worden uitgevoerd met Pytest</li>
+        <li>Docker-image wordt gebouwd</li>
+        <li>Image wordt gepusht naar Docker Hub</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Broncode & Demo</h2>
+      <p>
+        Bekijk de code op GitHub en (optioneel) de Docker-image:
+      </p>
+      <a href="https://github.com/giovannyM0570/app-api.git" class="link-button" target="_blank">GitHub Repository</a>
+    </section>
+  </div>
+</body>
+</html>
