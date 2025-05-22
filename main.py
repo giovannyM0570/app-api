@@ -9,7 +9,7 @@ def home():
 
 @app.route("/test")
 def test():
-    return "hallo"
+    return "halasaslo"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))  # Render geeft poort door via environment variable
